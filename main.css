@@ -1,0 +1,48 @@
+*{
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+header{
+    text-align: center;
+    margin: 40px 0;
+
+}
+header h1{
+    color: #262125;
+    text-transform: uppercase;
+    padding: 20px;
+}
+header p,article p{
+    color: #b9c1c5;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+article {
+    flex-basis: 30%;
+    /* box-shadow: ; */
+}
+article h2{
+    color: #262125;
+    font-size: 18px;
+    padding: 10px 0 ;
+}
+article p{
+    width: 75%;
+    margin: 10px 0 40px;
+}
+
+article a{
+    text-decoration: none;
+    color:white;
+    background-color: #a8ca02;
+    padding: 10px 20px ;
+    border-radius: 10px;
+    margin-top: 20px;
+}
